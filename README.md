@@ -1,8 +1,8 @@
-# Few-Shot Prompt Adaptation (FSPA)
+# Few-Shot Prompt Augmentation (FSPA)
 
 ## Overview
 
-Few-Shot Prompt Adaptation (FSPA) dynamically augment prompts in language models using context derived from a information retrieval search. The primary goal of this repository is to optimize the process of generating contextually relevant outputs without the need for exhaustive fine-tuning or manual preparation of prompts.
+Few-Shot Prompt Augmentation (FSPA) dynamically augments prompts in language models by using context derived from information retrieval systems. The primary goal of this repository is to optimize the process of generating contextually relevant outputs without the need for exhaustive fine-tuning or manual preparation of prompts.
 
 ## How It Works
 
