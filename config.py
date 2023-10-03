@@ -12,7 +12,9 @@ def get_embedding(text: str, engine="text-embedding-ada-002", **kwargs) -> List[
     ]
 
 
-def get_chat(messages, model: str = "gpt-3.5-turbo", temperature=0, **kwargs):
+def get_chat_completion(
+    messages, model: str = "gpt-3.5-turbo", temperature=0, **kwargs
+):
     response = openai.ChatCompletion.create(
         messages=messages, model=model, temperature=temperature, **kwargs
     )

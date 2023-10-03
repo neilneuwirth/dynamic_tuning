@@ -2,3 +2,4 @@ pandas
 chromadb
 openai
 pre-commit
+tqdm
